@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/car/car",
+    "pages/my/my"
+  ],
+  "tabBar": {
+    "color":"#000",
+    "selectedColor" :"red",
+    "backgroundColor":"#fff",
+    "borderStyle":"green",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/icon_home@2x.png",
+      "selectedIconPath": "image/icon_home_press@2x.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": "image/icon_home@2x.png",
+        "selectedIconPath": "image/icon_home_press@2x.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/icon_me@2x.png",
+        "selectedIconPath": "image/icon_me_press@2x.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D91A33",
+    "navigationBarTitleText": "香送",
+    "navigationBarTextStyle": "#fff"
+  }
+}

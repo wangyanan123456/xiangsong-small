@@ -1,0 +1,127 @@
+page{
+  -webkit-tap-highlight-color:rgba(0,0,0,0); 
+}
+.address{
+  margin-top: 30rpx;
+  font-size: 40rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.tab{
+  display: flex; 
+  flex-wrap: nowrap;
+  justify-content: space-around; 
+  font-size: 32rpx; 
+  /* margin-bottom: 30rpx; */
+}
+.tab_item{
+    color: #000;
+    cursor: pointer;
+}
+.active{
+  padding-bottom: 10rpx;
+  border-bottom: solid 2px #FA2B5C;
+  color: #FA2B5C;
+}
+.slide-image{
+  width:750rpx;
+  height:600rpx;
+}
+.bac{
+  background: #eee;
+  height: 20rpx;
+}
+.shopImg{
+  margin-left: 15rpx;
+   margin-top: 15rpx; 
+  width: 720rpx;
+  height: 300rpx;
+}
+.hei{
+  display: flex;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+}
+.name{
+  font-weight: bold;
+  margin-bottom: 15rpx;
+}
+.desc{
+  font-size: 26rpx;
+  margin-bottom: 15rpx;
+}
+.price{
+  display: flex;
+}
+.priceNew{
+  color: red;
+  font-size: 24rpx; 
+}
+.priceOld{
+  margin-left: 20rpx;
+  display: inline-block;
+  font-size: 24rpx; 
+  color: #999;
+  text-decoration:line-through;
+}
+.heiRight{
+  margin-left: 255rpx;
+}
+.time{
+  width:170rpx;
+  height: 35rpx;
+  background: red;
+  text-align: center;
+  font-size: 24rpx;
+  color: #fff;
+  border-radius: 7rpx;
+  margin-top: 10rpx;
+}
+.jisuan{
+  display: flex;
+}
+.add,.jian{
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border:2rpx solid red;
+  border-radius:50%;
+  margin-top: 10rpx;
+  margin-right: 15rpx;
+  color:red;
+}
+.num{
+  margin-top: 15rpx;
+  margin-right: 15rpx; 
+}
+.huodong{
+  font-size: 24rpx;
+  color:#fff;
+  display: flex;
+  margin-top: 20rpx;
+}
+.newShop{
+  width:120rpx;
+  text-align: center;
+  height: 35rpx;
+  line-height: 35rpx;
+  background: red;
+  margin-left:20rpx; 
+}
+.buy{
+  width:120rpx;
+  text-align: center;
+  height: 35rpx;
+  line-height: 35rpx;
+  background: green;
+  margin-left:20rpx;
+}
+.xianshi{
+  width:120rpx;
+  text-align: center;
+  height: 35rpx;
+  line-height: 35rpx;
+  background: orange;
+  margin-left:20rpx;
+}

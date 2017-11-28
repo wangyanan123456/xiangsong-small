@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view >
+  <view class='address'>来广营> </view>
+  <view class='tab'  >
+    <block >
+      <view bindtap='toColor' class="tab_item {{tab_now == 10 && 'active'}}" data-type="10"  >热门推荐</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 3 && 'active'}}" data-type="3" >新鲜面包</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 7 && 'active'}}" data-type="7">蛋糕西点</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 2 && 'active'}}" data-type="2">饮品小食</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 5 && 'active'}}" data-type="5">储值卡</view> 
+    </block>
+  </view>
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true">
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item >
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>  
+  <view class='bac'></view>
+  <view>
+    <image class='shopImg' src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'></image>
+    <view class='hei'>
+      <view class='heiLeft'>
+        <view class='name'>黑眼豆豆</view>
+        <view class='desc'>王祖蓝吃了后说“完美”</view>
+        <view class='price'>
+          <view class='priceNew'>￥13.90</view>
+        <view class='priceOld'>￥13.90</view>
+        </view> 
+      </view>
+      <view class='heiRight'>
+        <view class='time'>5月12日可送</view>
+        <view class='jisuan'>
+          <view class='add' bindtap='add'>+</view>
+          <view class='num'>{{num}}</view>
+          <view class='jian' bindtap='jian'>－</view>
+        </view>
+      </view>
+   </view>
+   <view class='huodong'>
+    <view class='newShop'>新品半价</view>
+    <view class='buy'>买一赠一</view>
+    <view class='xianshi'>限时特价</view>
+   </view>
+  </view>
+
+</view>
