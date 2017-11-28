@@ -79,6 +79,7 @@ page{
 }
 .jisuan{
   display: flex;
+  margin-top: 20rpx;
 }
 .add,.jian{
   width: 50rpx;
@@ -100,6 +101,7 @@ page{
   color:#fff;
   display: flex;
   margin-top: 20rpx;
+  margin-bottom: 10rpx;
 }
 .newShop{
   width:120rpx;
@@ -124,4 +126,36 @@ page{
   line-height: 35rpx;
   background: orange;
   margin-left:20rpx;
+}
+.list{
+  display: flex;
+  padding-left:20rpx;
+  padding-top:20rpx;
+}
+.listLeft image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.listTitle{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.listText{
+  font-size:26rpx;
+  margin-top:10rpx;
+  margin-bottom: 30rpx;
+}
+.listRight{
+  margin-left: 40rpx;
+}
+.round{
+  border:2rpx solid red;
+  width:50rpx;
+  height: 50rpx;
+  line-height: 45rpx;
+  text-align: center;
+  border-radius: 50%;
+  color:red;
+  margin-left: 150rpx;
+  margin-top: 50rpx;
 }

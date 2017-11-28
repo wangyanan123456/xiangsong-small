@@ -26,7 +26,7 @@
         <view class='desc'>王祖蓝吃了后说“完美”</view>
         <view class='price'>
           <view class='priceNew'>￥13.90</view>
-        <view class='priceOld'>￥13.90</view>
+          <view class='priceOld'>￥13.90</view>
         </view> 
       </view>
       <view class='heiRight'>
@@ -44,5 +44,20 @@
     <view class='xianshi'>限时特价</view>
    </view>
   </view>
-
+  <view class='bac'></view>
+  <view class='list'>
+    <view class='listLeft'>
+      <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'></image>
+    </view>
+    <view class='listRight'>
+      <view class='listTitle'>甜心小茉莉</view>
+      <view class='listText'>茉莉一棒，入口即化</view>
+      <view class='price'>
+          <view class='priceNew'>￥13.90</view>
+          <view class='priceOld'>￥13.90</view>
+      </view>
+    </view>
+    <view class='round'>+</view>
+  </view>
+  <view class='bac'></view>
 </view>
