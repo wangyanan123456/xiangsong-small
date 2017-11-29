@@ -1,0 +1,17 @@
+<!--pages/search/search.wxml-->
+<view>
+  <!-- <view class='box'>
+    
+    <input placeholder='请输入收货的小区、写字楼或者学校' class='inpt' bindtap='bindInput' focus='true'></input>
+  </view>
+  <view bindtouchstart="bindSearch" data-keywords="{{i.name}}" class="text_box" wx:for="{{tips}}" wx:for-item="i">
+  {{i.name}}</view>  -->
+    <view class="section">
+      <image class='img' src='../../image/search.png'></image>
+      <input bindinput="bindInput" placeholder="请输入收货的写字楼、小区或学校" focus="true" />
+    </view>
+    <view bindtouchstart="bindSearch" data-keywords="{{i.name}}" class="text_box" wx:for="{{tips}}" wx:for-item="i" wx:key='{{*this}}'>
+      {{i.name}}
+    </view>
+</view>
+

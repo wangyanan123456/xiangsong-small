@@ -26,7 +26,20 @@
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": 0,
+					"name": "地址",
+					"pathName": "pages/searchAddress/searchAddress",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "地址",
+					"pathName": "pages/search/search",
+					"query": ""
+				}
+			]
 		}
 	}
 }

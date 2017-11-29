@@ -1,0 +1,15 @@
+<!--pages/car/car.wxml-->
+<view>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>选择收货地址</view>
+    <view class='add'>新增地址</view>
+  </view>
+  <view class='searchadd'>
+  <view class='box'>
+    <view class='position'>北京市</view>
+      <image  class='searchImg' src='../../image/search.png'></image>
+      <input class='inpt' placeholder='输入要查询的地址' bindfocus="toseach"  value='{{address}}'></input>
+    </view> 
+  </view>
+</view>

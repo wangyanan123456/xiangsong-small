@@ -34,6 +34,11 @@ Page({
       num:this.data.num+1
     })
   },
+  tosearch:function(){
+    wx.navigateTo({
+      url: "../searchAddress/searchAddress",
+    })
+  },
   jian:function(){
     if(this.data.num<=1) return
     this.setData({

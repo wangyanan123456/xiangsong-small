@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view >
-  <view class='address'>来广营> </view>
+  <view class='address' bindtap='tosearch'>来广营> </view>
   <view class='tab'  >
     <block >
       <view bindtap='toColor' class="tab_item {{tab_now == 10 && 'active'}}" data-type="10"  >热门推荐</view>

@@ -1,0 +1,27 @@
+/* pages/search/search.wxss */
+.img{
+  width: 40rpx;
+  height:40rpx;
+  margin-top: 20rpx;
+}
+.section{
+  display: flex;
+  border:2rpx solid #eee;
+  height: 80rpx;
+  border-radius: 10rpx ;
+  width:700rpx;
+  margin: 0 auto;
+  padding-left:20rpx; 
+  margin-top: 20rpx;
+}
+.section input{
+  width: 600rpx;
+  margin-top: 15rpx;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.text_box{
+  margin: 10px 25px;
+  border-bottom:1px solid #c3c3c3;
+  padding-bottom:10px
+}

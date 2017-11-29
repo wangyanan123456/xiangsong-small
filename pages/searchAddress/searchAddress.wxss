@@ -1,0 +1,48 @@
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  /* background: red; */
+  display: flex;
+  font-size:30rpx;
+  justify-content: space-around;
+  border-bottom: 2rpx solid #eee;
+}
+.checkadd{
+  font-size: 38rpx;
+}
+.add{
+  font-size:26rpx;
+  color:red;
+}
+.searchadd{
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.position{
+  font-size: 34rpx;
+}
+.box{
+  display: flex;
+  border-radius: 10rpx;
+  background: #eee
+}
+.searchImg{
+  width:30rpx;
+  height: 30rpx;
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.inpt{
+  margin-top: 15rpx;
+  font-size: 30rpx;
+  /* background: red; */
+  width:500rpx;
+}
+.ee{
+  background: red;
+}
+

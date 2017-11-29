@@ -2,7 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/car/car",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/searchAddress/searchAddress",
+    "pages/search/search"
   ],
   "tabBar": {
     "color":"#000",
