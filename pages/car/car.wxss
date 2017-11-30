@@ -1,1 +1,67 @@
 /* pages/car/car.wxss */
+.list{
+  display: flex;
+  padding-left:60rpx;
+  padding-top:20rpx;
+}
+.listLeft image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.listTitle{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.listText{
+  font-size:26rpx;
+  margin-top:10rpx;
+  margin-bottom: 30rpx;
+}
+.listRight{
+  margin-left: 40rpx;
+}
+.round{
+  border:2rpx solid red;
+  width:50rpx;
+  height: 50rpx;
+  line-height: 45rpx;
+  text-align: center;
+  border-radius: 50%;
+  color:red;
+  margin-left: 150rpx;
+  margin-top: 50rpx;
+}
+.jisuan2{
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 100rpx;
+}
+.price{
+  display: flex;
+}
+.priceNew{
+  color: red;
+  font-size: 24rpx; 
+}
+.priceOld{
+  margin-left: 20rpx;
+  display: inline-block;
+  font-size: 24rpx; 
+  color: #999;
+  text-decoration:line-through;
+}
+.add,.jian{
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border:2rpx solid red;
+  border-radius:50%;
+  margin-top: 10rpx;
+  margin-right: 15rpx;
+  color:red;
+}
+.num{
+  margin-top: 15rpx;
+  margin-right: 15rpx; 
+}

@@ -10,13 +10,31 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
     tab_now: 10,
-    num:1
+    num:1,
+    showPrice:true,
+    apper:false,
+    numbe:0
   },
   //事件处理函数
   
   onLoad: function () {
+  },
+  onShow:function(){
+    var num = wx.getStorageSync('count')
+    if(num==0){
+      this.setData({
+        showPrice: true,
+        apper: false,
+      })
+    }else{
+      this.setData({
+        showPrice: false,
+        apper: true,
+        numbe: num
+      })
+    }
     
-    
+    console.log(this.data.numbe)
   },
   toColor:function(e) {
     var sortType = e.currentTarget.dataset.type;
@@ -33,6 +51,33 @@ Page({
     this.setData({
       num:this.data.num+1
     })
+  },
+  jia: function () {
+    this.setData({
+      apper: true,
+      showPrice: false,
+    })
+  },
+  priceUp:function(){
+    this.setData({
+      apper:true,
+      showPrice:false,
+      numbe:this.data.numbe+1
+    })
+  },
+  priceDown:function(){
+    if (this.data.numbe < 1) {
+      this.setData({
+        apper: false,
+        showPrice: true,
+        numbe:0
+      })
+      return 
+    }
+    this.setData({
+      numbe: this.data.numbe - 1
+    })
+   
   },
   tosearch:function(){
     wx.navigateTo({
@@ -52,5 +97,13 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  onHide:function(){
+    wx.setStorageSync('count', this.data.numbe)
+  },
+  onUnload: function () {
+    thie.setData({
+      numbe:0
+    })
+  },
 })

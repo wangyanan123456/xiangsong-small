@@ -159,3 +159,8 @@ page{
   margin-left: 150rpx;
   margin-top: 50rpx;
 }
+.jisuan2{
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 100rpx;
+}

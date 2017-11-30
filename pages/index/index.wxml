@@ -57,7 +57,12 @@
           <view class='priceOld'>￥13.90</view>
       </view>
     </view>
-    <view class='round'>+</view>
-  </view>
+     <view class='round' wx:if="{{showPrice}}" bindtap='jia'>+</view> 
+    <view class='jisuan2' wx:if='{{apper}}'>
+      <view class='add' bindtap='priceUp'>+</view>
+      <view class='num'>{{numbe}}</view>
+      <view class='jian' bindtap='priceDown'>－</view>
+    </view>
+  </view> 
   <view class='bac'></view>
 </view>
