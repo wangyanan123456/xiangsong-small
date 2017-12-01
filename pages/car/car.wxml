@@ -3,15 +3,14 @@
   <view class='list'>
     <view class='check' bindtap='check' data-check="{{check}}">{{check}}</view>
     <view class='listLeft'>
-      <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'></image>
+      <image src='{{item.img}}'></image>
     </view>
     <view class='listRight'>
-      <view class='listTitle'>甜心小茉莉</view>
-      <view class='listText'>茉莉一棒，入口即化</view>
+      <view class='listTitle'data-t="{{item.title}}" bindtap='title'>{{item.title}}</view>
+      <view class='listText'>{{item.text}}</view>
       <view class='price'>
-        <view class='priceNew' >￥19.9</view>
-        <view class='priceOld' >￥29.9</view>
-        <view></view>
+        <view class='priceNew' >￥{{item.new}}</view>
+        <view class='priceOld' >￥{{item.old}}</view>
       </view>
     </view>
     <view class='jisuan2'>

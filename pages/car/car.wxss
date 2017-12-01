@@ -18,8 +18,9 @@
   margin-bottom: 30rpx;
 }
 .listRight{
+  width:260rpx;
   margin-left: 40rpx;
-  margin-right: 40rpx;
+  /* margin-right: 40rpx; */
 }
 
 .jisuan2{
@@ -54,8 +55,8 @@
   color:red;
 }
 .num{
+  width:50rpx;
   margin-top: 15rpx;
-  margin-right: 15rpx; 
 }
 .check{
   border: 2rpx solid red;

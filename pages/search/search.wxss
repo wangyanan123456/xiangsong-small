@@ -15,10 +15,12 @@
   margin-top: 20rpx;
 }
 .section input{
-  width: 600rpx;
+  width: 620rpx;
   margin-top: 15rpx;
   font-size: 30rpx;
   margin-left: 20rpx;
+  resize: none;
+  box-sizing: border-box;
 }
 .text_box{
   margin: 10px 25px;

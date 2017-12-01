@@ -39,10 +39,22 @@
 .inpt{
   margin-top: 15rpx;
   font-size: 30rpx;
-  /* background: red; */
+  resize: none;
+  box-sizing: border-box;
   width:500rpx;
 }
 .ee{
   background: red;
 }
-
+.background{
+  margin-top: 20rpx;
+  border-top:2rpx solid #000;
+  border-bottom:2rpx solid #000;
+  height: 60rpx;
+  background: #eee;
+}
+.plice{
+  display: flex;
+  justify-content: space-around;
+  font-size: 34rpx;
+}

@@ -1,0 +1,58 @@
+/* pages/car/car.wxss */
+.page{
+  position: relative;
+}
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  /* background: red; */
+  display: flex;
+  font-size:30rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.checkadd{
+  margin-left:270rpx;
+  font-size: 38rpx;
+}
+.info{
+  padding-left: 30rpx;
+  padding-right:30rpx;
+}
+.user{
+  display: flex;
+  font-size: 34rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #999;
+}
+.user view{
+  width:150rpx;
+}
+.user input{
+   padding-left: 50rpx; 
+  margin-top:15rpx;
+}
+.gender{
+  font-size:30rpx;
+}
+.tanchuang{
+  position: fixed;
+  z-index: 100;
+  left: 200rpx;
+  width:300rpx;
+  height: 80rpx;
+  background: #eee;
+  border-radius: 30rpx;
+  text-align: center;
+}
+.keep{
+  width:300rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #eee;
+  font-size: 34rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  margin: 0 auto;
+  margin-top: 100rpx;
+}

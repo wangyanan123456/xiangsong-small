@@ -25,7 +25,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": 0,
@@ -34,15 +34,22 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "地址",
+					"id": 1,
+					"name": "实时搜索地址",
 					"pathName": "pages/search/search",
 					"query": ""
 				},
 				{
 					"id": -1,
 					"name": "购物车",
-					"pathName": "pages/car/car"
+					"pathName": "pages/car/car",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "新增地址",
+					"pathName": "pages/addAddress/addAddress",
+					"query": ""
 				}
 			]
 		}

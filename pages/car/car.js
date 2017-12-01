@@ -11,16 +11,18 @@ Page({
       {
         "img":'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
         "title":'甜心小茉莉',
-        "Text":"茉莉一棒，入口即化",
+        "text":"茉莉一棒，入口即化",
         "new":"13.9",
-        "old":'19.9'
+        "old":'19.9',
+        "num":'0'
       },
       {
         "img": 'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
         "title": '黑眼豆豆',
-        "Text": "巧克力面包",
+        "text": "巧克力面包",
         "new": "10.9",
-        "old": '15.9'
+        "old": '15.9',
+        "num": '0'
       }
     ]
   },
@@ -29,12 +31,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
   },
   priceUp: function () {
     this.setData({
       num: this.data.num + 1
     })
+  },
+  title:function(e){
+    // console.log(e)
+    console.log(e.currentTarget.dataset.t)
   },
   priceDown: function () {
     if (this.data.num < 1) {
@@ -92,7 +97,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-   
+    
   },
   
 

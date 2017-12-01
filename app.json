@@ -4,7 +4,8 @@
     "pages/car/car",
     "pages/my/my",
     "pages/searchAddress/searchAddress",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/addAddress/addAddress"
   ],
   "tabBar": {
     "color":"#000",

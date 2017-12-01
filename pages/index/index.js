@@ -1,6 +1,12 @@
 //index.js
 //获取应用实例
+var amapFile = require('../../libs/amap-wx.js');
 const app = getApp()
+var markersData = {
+  latitude: '',//纬度
+  longitude: '',//经度
+  key: "aa9899403bf5cba47184033f18d234ff"//你申请的高德地图key
+};
 
 Page({
   data: {
@@ -13,12 +19,16 @@ Page({
     num:1,
     showPrice:true,
     apper:false,
-    numbe:0
+    numbe:0,
+    adcode: "",
+    formatted_address: ""
   },
   //事件处理函数
   
   onLoad: function () {
+    
   },
+  
   onShow:function(){
     var num = wx.getStorageSync('count')
     if(num==0){
