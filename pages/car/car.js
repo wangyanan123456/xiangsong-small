@@ -6,6 +6,23 @@ Page({
    */
   data: {
     num:0,
+    check:'',
+    list:[
+      {
+        "img":'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+        "title":'甜心小茉莉',
+        "Text":"茉莉一棒，入口即化",
+        "new":"13.9",
+        "old":'19.9'
+      },
+      {
+        "img": 'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+        "title": '黑眼豆豆',
+        "Text": "巧克力面包",
+        "new": "10.9",
+        "old": '15.9'
+      }
+    ]
   },
 
   /**
@@ -30,6 +47,21 @@ Page({
       num: this.data.num - 1
     })
 
+  },
+  check: function (e) {
+    console.log(e)
+    var clickCheck = e.currentTarget.dataset.check
+    // console.log(e.currentTarget.dataset.check)
+    if (clickCheck == ''){
+      this.setData({
+        check: '√'
+      })
+    }else{
+      this.setData({
+        check: ''
+      })
+    }
+    
   },
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -62,6 +94,7 @@ Page({
   onUnload: function () {
    
   },
+  
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作

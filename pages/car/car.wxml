@@ -1,22 +1,23 @@
 <!--pages/car/car.wxml-->
-<view class='list'>
-  <view>
-    
-  </view>
-  <view class='listLeft'>
-    <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'></image>
-  </view>
-  <view class='listRight'>
-    <view class='listTitle'>甜心小茉莉</view>
-    <view class='listText'>茉莉一棒，入口即化</view>
-    <view class='price'>
-        <view class='priceNew'>￥13.90</view>
-        <view class='priceOld'>￥13.90</view>
+<block wx:for='{{list}}'>
+  <view class='list'>
+    <view class='check' bindtap='check' data-check="{{check}}">{{check}}</view>
+    <view class='listLeft'>
+      <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'></image>
+    </view>
+    <view class='listRight'>
+      <view class='listTitle'>甜心小茉莉</view>
+      <view class='listText'>茉莉一棒，入口即化</view>
+      <view class='price'>
+        <view class='priceNew' >￥19.9</view>
+        <view class='priceOld' >￥29.9</view>
+        <view></view>
+      </view>
+    </view>
+    <view class='jisuan2'>
+      <view class='add' bindtap='priceUp'>＋</view>
+      <view class='num'>{{num}}</view>
+      <view class='jian' bindtap='priceDown'>－</view>
     </view>
   </view>
-  <view class='jisuan2'>
-    <view class='add' bindtap='priceUp'>+</view>
-    <view class='num'>{{num}}</view>
-    <view class='jian' bindtap='priceDown'>－</view>
-  </view>
-  </view>
+</block>

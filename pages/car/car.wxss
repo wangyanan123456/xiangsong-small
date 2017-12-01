@@ -1,7 +1,7 @@
 /* pages/car/car.wxss */
 .list{
   display: flex;
-  padding-left:60rpx;
+  padding-left:20rpx;
   padding-top:20rpx;
 }
 .listLeft image{
@@ -19,22 +19,14 @@
 }
 .listRight{
   margin-left: 40rpx;
+  margin-right: 40rpx;
 }
-.round{
-  border:2rpx solid red;
-  width:50rpx;
-  height: 50rpx;
-  line-height: 45rpx;
-  text-align: center;
-  border-radius: 50%;
-  color:red;
-  margin-left: 150rpx;
-  margin-top: 50rpx;
-}
+
 .jisuan2{
+  /* background: red; */
   display: flex;
   margin-top: 20rpx;
-  margin-left: 100rpx;
+  /* margin-left: 70rpx; */
 }
 .price{
   display: flex;
@@ -64,4 +56,14 @@
 .num{
   margin-top: 15rpx;
   margin-right: 15rpx; 
+}
+.check{
+  border: 2rpx solid red;
+  margin-right: 20rpx;
+  width:40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius:50%;
+  text-align: center;
+  color:red;
 }
