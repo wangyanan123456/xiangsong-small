@@ -21,16 +21,16 @@
 .user{
   display: flex;
   font-size: 34rpx;
-  height: 80rpx;
-  line-height: 80rpx;
+  height: 100rpx;
+  line-height: 100rpx;
   border-bottom: 2rpx solid #999;
 }
 .user view{
   width:150rpx;
 }
 .user input{
-   padding-left: 50rpx; 
-  margin-top:15rpx;
+  padding-left: 50rpx; 
+  margin-top:25rpx;
 }
 .gender{
   font-size:30rpx;
@@ -46,13 +46,31 @@
   text-align: center;
 }
 .keep{
-  width:300rpx;
-  height: 60rpx;
-  line-height: 60rpx;
+  width:600rpx;
+  height: 80rpx;
+  line-height: 80rpx;
   background: #eee;
   font-size: 34rpx;
   text-align: center;
-  border-radius: 50rpx;
+  border-radius: 20rpx;
   margin: 0 auto;
   margin-top: 100rpx;
+}
+.toast{
+    background: #000;
+    color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 15px;
+    opacity: 0.7;
+    word-wrap: break-word;
+    word-break: normal;
+    z-index:999;
+    position: fixed;
+    top:30%;
+    left:50%;
+    transform: translateX(-50%);
 }

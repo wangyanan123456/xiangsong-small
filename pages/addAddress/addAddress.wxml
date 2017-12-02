@@ -27,5 +27,8 @@
     </view>
   </view>
   <!-- <view class='tanchuang'>{{title}}</view> -->
-  <view class='keep'>保存</view>
+  <view class='keep' bindtap='keep'>保存</view>
 </view> 
+<!--toast弹窗-->
+<include src="../template/toast.wxml"/>
+

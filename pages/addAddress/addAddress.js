@@ -1,4 +1,5 @@
 // pages/car/car.js
+var toast = require('../template/toast.js')
 Page({
 
   /**
@@ -50,6 +51,27 @@ Page({
     this.setData({
       detailAdd: e.detail.value
     })
+  },
+  keep:function(){
+    if (this.data.name == ''){
+      toast.toast.call(this, '请填写姓名',2000);
+      return
+    }
+    if (!(/^[1][34578][0-9]{9}$/.test(this.data.phoneNumber))){
+      toast.toast.call(this, '请输入正确的手机号', 2000);
+    }
+    if (this.data.city == '') {
+      toast.toast.call(this, '请填写城市', 2000);
+      return
+    }
+    if (this.data.place == '') {
+      toast.toast.call(this, '请填写收货地址', 2000);
+      return
+    }
+    if (this.data.detailAdd == '') {
+      toast.toast.call(this, '请填写详细地址', 2000);
+      return
+    }
   },
 
   /**
