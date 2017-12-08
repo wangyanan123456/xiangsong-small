@@ -5,7 +5,9 @@
     "pages/my/my",
     "pages/searchAddress/searchAddress",
     "pages/search/search",
-    "pages/addAddress/addAddress"
+    "pages/addAddress/addAddress",
+    "pages/myAddress/myAddress",
+    "pages/tuanGou/tuanGou"
   ],
   "tabBar": {
     "color":"#000",

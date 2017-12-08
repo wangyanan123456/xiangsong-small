@@ -1,5 +1,5 @@
 <!--pages/car/car.wxml-->
-<block wx:for='{{list}}'>
+<block wx:for='{{list}}' wx:key="*this">
   <view class='list'>
     <view class='check' bindtap='check' data-check="{{check}}">{{check}}</view>
     <view class='listLeft'>

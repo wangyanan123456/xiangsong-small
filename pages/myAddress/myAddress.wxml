@@ -1,0 +1,27 @@
+<!--pages/car/car.wxml-->
+<view class='page'>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>我的收货地址</view>
+  </view>
+  <view class='addList'>
+    <view class='left'>
+      <view class='name'>王亚楠</view>
+      <view class='phone'>13522179270</view>
+      <view class='address'>竞园32c</view>
+    </view>
+    <view class='right'>
+      <view bindtap='addAddress'>编辑</view>
+    </view>
+  </view>
+  <view class='addList'>
+    <view class='left'>
+      <view class='name'>王亚楠</view>
+      <view class='phone'>13522179270</view>
+      <view class='address'>竞园32c</view>
+    </view>
+    <view class='right'>
+      <view>编辑</view>
+    </view>
+  </view>
+</view>

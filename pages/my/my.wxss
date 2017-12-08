@@ -1,1 +1,75 @@
 /* pages/car/car.wxss */
+
+.myImg{
+  height: 200rpx;
+  padding: 50rpx 0;
+}
+.myImg view:first-child{
+  text-align: center;
+  margin: 0 auto;
+  width:150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  background-image: url('http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg');
+  background-size:150rpx 150rpx;
+  background-repeat:no-repeat;
+}
+.myImg view:last-child{
+  text-align: center;
+}
+.money{
+  display: flex;
+  justify-content: space-around;
+  font-size: 32rpx;
+  padding-bottom: 20rpx;
+  border-bottom:2rpx solid #999;
+}
+.checkList{
+  display: flex;
+  height: 70rpx;
+  line-height: 70rpx;
+  justify-content: space-around;
+  font-size: 32rpx;
+  border-bottom:2rpx solid #999;
+  border-top: 20rpx solid #eee;
+}
+.serve{
+  padding:50rpx 0;
+  display: flex;
+  justify-content: space-around;
+  border-bottom:20rpx solid #eee;
+}
+.serve>view{
+  font-size: 32rpx;
+}
+.serveImg{
+  width:50rpx;
+  height: 50rpx;
+  margin: 0 auto;
+  background: pink;
+}
+.oneList{
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size:32rpx;
+  border-bottom: 2rpx solid #999;
+}
+.oneList image{
+  width:80rpx;
+  height: 80rpx;
+  background: pink;
+  line-height: 100rpx;
+  margin-top: 10rpx;
+  margin-left: 50rpx;
+}
+.text{
+  width:450rpx;
+  height: 100rpx;
+  padding-left:50rpx;
+}
+.text2{
+  width:300rpx;
+  height: 80rpx;
+  padding-left:50rpx;
+}

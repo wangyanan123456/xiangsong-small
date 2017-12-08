@@ -1,0 +1,29 @@
+/* pages/myAddress/myAddress.wxss */
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  /* background: red; */
+  display: flex;
+  font-size:30rpx;
+}
+.checkadd{
+  margin-left:270rpx;
+  font-size: 38rpx;
+}
+.addList{
+  border-top: 10rpx solid #eee;
+  display: flex;
+  font-size: 32rpx;
+  padding-left: 30rpx;
+  padding-bottom: 10rpx;
+}
+.left view{
+  margin-top:10rpx;
+}
+.right{
+  height: 60rpx;
+  margin-left: 400rpx;
+  margin-top: 60rpx;
+  border-left: 2rpx solid #999;
+  padding-left:20rpx;
+}

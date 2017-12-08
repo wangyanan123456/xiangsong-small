@@ -1,2 +1,83 @@
 <!--pages/car/car.wxml-->
-<text>这是我的页面33</text>
+<view>
+  <view class='myImg'>
+    <!-- <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'></image> -->
+    <view></view>
+    <view>我的</view>
+  </view>
+  <view class='money'>
+    <view>
+      <view>0.00</view>
+      <view>余额</view>
+    </view>
+    <view>
+      <view>0.00</view>
+      <view>优惠券</view>
+    </view>
+    <view>
+      <view>0.00</view>
+      <view>积分</view>
+    </view>
+  </view>
+  <view class='list'>
+    <view class='checkList'>
+      <view>我的订单</view>
+      <view>查看全部订单</view>
+    </view>
+    <view class='serve'>
+      <view>
+        <view class='serveImg'><image></image></view>
+        <view>代付款</view>
+      </view>
+      <view>
+        <view class='serveImg'><image></image></view>
+        <view>代收货</view>
+      </view>
+      <view>
+        <view class='serveImg'><image></image></view>
+        <view>代评价</view>
+      </view>
+      <view>
+        <view class='serveImg'><image></image></view>
+        <view>退款/售后</view>
+      </view>
+    </view>
+    <view class='lists'>
+      <view class='oneList' bindtap='toMyAdd'>
+        <view><image></image></view>
+        <view class='text'>收货地址</view>
+        <view>＋</view>
+      </view>
+      <view class='oneList'>
+        <view><image></image></view>
+        <view class='text2'>客服</view>
+        <view>400 6666 812</view>
+      </view>
+      <view class='oneList' bindtap='toTuanGou'>
+        <view><image></image></view>
+        <view class='text'>我的团购</view>
+        <view>＋</view>
+      </view>
+      <view class='oneList'>
+        <view><image></image></view>
+        <view class='text'>设置支付密码</view>
+        <view>＋</view>
+      </view>
+      <view class='oneList'>
+        <view><image></image></view>
+        <view class='text'>绑定手机</view>
+        <view>＋</view>
+      </view>
+      <view class='oneList'>
+        <view><image></image></view>
+        <view class='text'>我的发票</view>
+        <view>＋</view>
+      </view>
+      <view class='oneList'>
+        <view><image></image></view>
+        <view class='text'>设置</view>
+        <view>＋</view>
+      </view>
+    </view>
+  </view>
+</view>
