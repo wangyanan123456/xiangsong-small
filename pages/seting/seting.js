@@ -5,14 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    show:false
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    
   },
   toMyAdd: function () {
     console.log(0)
@@ -25,26 +25,18 @@ Page({
       url: "../tuanGou/tuanGou",
     })
   },
-  toSetPay:function(){
-    wx.navigateTo({
-      url: "../setPay/setPay",
+  seting:function(){
+    console.log(9090)
+    this.setData({
+      show:true
     })
   },
-  toPhone:function(){
-    wx.navigateTo({
-      url: "../phone/phone",
+  quxiao:function(){
+    this.setData({
+      show: false
     })
   },
-  toBill:function(){
-    wx.navigateTo({
-      url: "../bill/bill",
-    })
-  },
-  toSeting: function () {
-    wx.navigateTo({
-      url: "../seting/seting",
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -63,17 +63,17 @@
         <view class='text'>设置支付密码</view>
         <view>＋</view>
       </view>
-      <view class='oneList'>
+      <view class='oneList' bindtap='toPhone'>
         <view><image></image></view>
         <view class='text'>绑定手机</view>
         <view>＋</view>
       </view>
-      <view class='oneList'>
+      <view class='oneList' bindtap='toBill'>
         <view><image></image></view>
         <view class='text'>我的发票</view>
         <view>＋</view>
       </view>
-      <view class='oneList'>
+      <view class='oneList' bindtap='toSeting'>
         <view><image></image></view>
         <view class='text'>设置</view>
         <view>＋</view>

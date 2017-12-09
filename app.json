@@ -10,7 +10,8 @@
     "pages/tuanGou/tuanGou",
     "pages/setPay/setPay",
     "pages/phone/phone",
-    "pages/bill/bill"
+    "pages/bill/bill",
+    "pages/seting/seting"
   ],
   "tabBar": {
     "color":"#000",
