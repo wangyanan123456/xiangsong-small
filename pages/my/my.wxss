@@ -34,10 +34,10 @@
   border-top: 20rpx solid #eee;
 }
 .serve{
-  padding:50rpx 0;
+   padding:50rpx 0;
   display: flex;
   justify-content: space-around;
-  border-bottom:20rpx solid #eee;
+  border-bottom:20rpx solid #eee; 
 }
 .serve>view{
   font-size: 32rpx;
@@ -47,6 +47,10 @@
   height: 50rpx;
   margin: 0 auto;
   background: pink;
+}
+.serveImg image{
+  width:50rpx;
+  height: 50rpx;
 }
 .oneList{
   display: flex;

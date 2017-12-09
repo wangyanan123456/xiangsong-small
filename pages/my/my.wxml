@@ -1,5 +1,5 @@
 <!--pages/car/car.wxml-->
-<view>
+<view >
   <view class='myImg'>
     <!-- <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg'></image> -->
     <view></view>
