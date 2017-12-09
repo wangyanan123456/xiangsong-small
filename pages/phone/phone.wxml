@@ -1,0 +1,12 @@
+<view>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>绑定手机</view>
+  </view>
+  <input placeholder='请输入手机号码' class='phoneNumber'></input>
+  <view class='inpt'>
+    <input placeholder='请输入短信验证码'></input><view>获取验证码</view>
+  </view>
+  <view class='next'>绑定</view>
+  
+</view>

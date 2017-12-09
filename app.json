@@ -8,7 +8,8 @@
     "pages/addAddress/addAddress",
     "pages/myAddress/myAddress",
     "pages/tuanGou/tuanGou",
-    "pages/setPay/setPay"
+    "pages/setPay/setPay",
+    "pages/phone/phone"
   ],
   "tabBar": {
     "color":"#000",
