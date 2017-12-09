@@ -1,0 +1,22 @@
+<view>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>我的发票</view>
+  </view>
+  <view class='list'> 
+    <view class='left'>
+      <view>订单号123456789</view>
+      <view class='price'>￥250.00元</view>
+      <view>2017年12月09日  11:00</view>
+    </view>
+    <view class='right'>申请</view>
+  </view>
+  <view class='list'> 
+    <view class='left'>
+      <view>订单号123456789</view>
+      <view class='price'>￥250.00元</view>
+      <view>2017年12月09日  11:00</view>
+    </view>
+    <view class='right'>发票已开</view>
+  </view>
+</view>

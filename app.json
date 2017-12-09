@@ -9,7 +9,8 @@
     "pages/myAddress/myAddress",
     "pages/tuanGou/tuanGou",
     "pages/setPay/setPay",
-    "pages/phone/phone"
+    "pages/phone/phone",
+    "pages/bill/bill"
   ],
   "tabBar": {
     "color":"#000",

@@ -1,0 +1,32 @@
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  /* background: red; */
+  display: flex;
+  font-size:30rpx;
+  border-bottom: 2rpx solid #999;
+}
+.checkadd{
+  margin-left:270rpx;
+  font-size: 38rpx;
+}
+.list{
+  font-size: 32rpx;
+  display: flex;
+  padding:20rpx 30rpx;
+  border-bottom: 1rpx solid #999;
+}
+.price{
+  color:red;
+}
+.right{
+  margin-top: 30rpx;
+  margin-left: 140rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  width:150rpx;
+  background: red;
+  color: #fff;
+  text-align: center;
+  border-radius: 10rpx;
+}

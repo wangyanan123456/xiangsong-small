@@ -25,7 +25,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 8,
+			"current": 9,
 			"list": [
 				{
 					"id": 0,
@@ -78,7 +78,13 @@
 				{
 					"id": -1,
 					"name": "绑定手机",
-					"pathName": "pages/phone/phone"
+					"pathName": "pages/phone/phone",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "开发票",
+					"pathName": "pages/bill/bill"
 				}
 			]
 		}
