@@ -1,0 +1,18 @@
+<view>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>设置支付密码</view>
+  </view>
+  <view class='waring'>
+    <view class='waringImg'>
+       <image></image> 
+    </view>
+    <view class='setPassword'>为了您的资金安全请先设置支付密码</view>
+  </view>
+  <input placeholder='请输入手机号码' class='phoneNumber'></input>
+  <view class='inpt'>
+    <input placeholder='请输入短信验证码'></input><view>获取验证码</view>
+  </view>
+  <view class='next'>下一步</view>
+  
+</view>

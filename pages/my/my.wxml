@@ -58,7 +58,7 @@
         <view class='text'>我的团购</view>
         <view>＋</view>
       </view>
-      <view class='oneList'>
+      <view class='oneList'  bindtap='toSetPay'>
         <view><image></image></view>
         <view class='text'>设置支付密码</view>
         <view>＋</view>
