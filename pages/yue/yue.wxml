@@ -1,0 +1,36 @@
+<view>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>余额</view>
+  </view>
+  <view class='jifen'>
+    <view>我的余额</view>
+    <view>2.00</view>
+  </view>
+  <view class='tab'>
+    <view>
+      <view></view>
+      <view>卡券兑换</view>
+    </view>
+  </view>
+  <view class='list'> 
+    <view class='left'>
+      <view>余额消费</view>
+      <view>余额消费30.7元</view>
+    </view>
+    <view class='right'>
+      <view style='color:red'>＋92</view>
+      <view>2017-12-11  11：29</view>
+    </view>
+  </view>
+  <view class='list'> 
+    <view class='left'>
+      <view>余额充值</view>
+      <view>余额充值30.7元</view>
+    </view>
+    <view class='right'>
+       <view style='color:red'>＋92</view>
+      <view>2017-12-11  11：29</view>
+    </view>
+  </view>
+</view>

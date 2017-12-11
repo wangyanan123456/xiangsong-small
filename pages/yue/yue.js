@@ -25,36 +25,7 @@ Page({
       url: "../tuanGou/tuanGou",
     })
   },
-  toSetPay:function(){
-    wx.navigateTo({
-      url: "../setPay/setPay",
-    })
-  },
-  toPhone:function(){
-    wx.navigateTo({
-      url: "../phone/phone",
-    })
-  },
-  toBill:function(){
-    wx.navigateTo({
-      url: "../bill/bill",
-    })
-  },
-  toSeting: function () {
-    wx.navigateTo({
-      url: "../seting/seting",
-    })
-  },
-  toJifen:function(){
-    wx.navigateTo({
-      url: "../jifen/jifen",
-    })
-  },
-  toYue:function(){
-    wx.navigateTo({
-      url: "../yue/yue",
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

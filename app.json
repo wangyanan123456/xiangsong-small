@@ -13,7 +13,8 @@
     "pages/bill/bill",
     "pages/seting/seting",
     "pages/loading/loading",
-    "pages/jifen/jifen"
+    "pages/jifen/jifen",
+    "pages/yue/yue"
   ],
   "tabBar": {
     "color":"#000",
