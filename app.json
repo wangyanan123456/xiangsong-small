@@ -11,7 +11,9 @@
     "pages/setPay/setPay",
     "pages/phone/phone",
     "pages/bill/bill",
-    "pages/seting/seting"
+    "pages/seting/seting",
+    "pages/loading/loading",
+    "pages/jifen/jifen"
   ],
   "tabBar": {
     "color":"#000",

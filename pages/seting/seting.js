@@ -31,6 +31,23 @@ Page({
       show:true
     })
   },
+  exit:function(){
+    wx.showModal({
+      title: '提示',
+      content: '确定要退出吗',
+      success: function (res) {
+        if (res.confirm) {
+          console.log('用户点击确定')
+          wx.navigateTo({
+            url: "../loading/loading",
+          })
+
+        } else if (res.cancel) {
+          console.log('用户点击取消')
+        }
+      }
+    })
+  },
   quxiao:function(){
     this.setData({
       show: false

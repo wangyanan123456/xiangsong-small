@@ -1,0 +1,30 @@
+<view>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>积分</view>
+  </view>
+  <view class='jifen'>
+    <view>我的积分</view>
+    <view>250</view>
+  </view>
+  <view class='list'> 
+    <view class='left'>
+      <view>购物积分</view>
+      <view>购买精选商品30.7元</view>
+    </view>
+    <view class='right'>
+      <view style='color:red'>＋92</view>
+      <view>2017-12-11  11：29</view>
+    </view>
+  </view>
+  <view class='list'> 
+    <view class='left'>
+      <view>购物积分</view>
+      <view>购买精选商品30.7元</view>
+    </view>
+    <view class='right'>
+       <view style='color:red'>＋92</view>
+      <view>2017-12-11  11：29</view>
+    </view>
+  </view>
+</view>

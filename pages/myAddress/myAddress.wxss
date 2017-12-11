@@ -27,3 +27,23 @@
   border-left: 2rpx solid #999;
   padding-left:20rpx;
 }
+.foot{
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  width:100%;
+  text-align: center;
+  line-height: 100rpx;
+  border-top:1rpx solid #999;
+  border-bottom: 1rpx solid #999;
+  padding-top: 20rpx;
+}
+.foot view{
+  margin: 0 auto;
+  width:500rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: orange;
+  font-size: 28rpx;
+  color: #fff;
+}

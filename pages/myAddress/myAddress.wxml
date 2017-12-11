@@ -24,4 +24,7 @@
       <view>编辑</view>
     </view>
   </view>
+  <view class='foot'>
+    <view bindtap='newAdd'>新增地址</view>
+  </view>
 </view>

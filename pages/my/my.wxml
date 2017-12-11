@@ -14,7 +14,7 @@
       <view>0.00</view>
       <view>优惠券</view>
     </view>
-    <view>
+    <view bindtap='toJifen'>
       <view>0.00</view>
       <view>积分</view>
     </view>

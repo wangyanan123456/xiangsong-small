@@ -5,7 +5,7 @@
       <view class='checkadd' >设置</view>
     </view>
     <view class='share' bindtap='seting'>分享给朋友</view>
-    <view class='exit'>退出当前账号</view>
+    <view class='exit' bindtap='exit'>退出当前账号</view>
   </view>
 </view>
  <view class='model' wx:if='{{show}}'>

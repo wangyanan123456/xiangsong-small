@@ -19,6 +19,11 @@ Page({
       url: "../addAddress/addAddress",
     })
   },
+  newAdd:function(){
+    wx.navigateTo({
+      url: "../addAddress/addAddress",
+    })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

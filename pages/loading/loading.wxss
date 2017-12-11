@@ -1,0 +1,51 @@
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  /* background: red; */
+  display: flex;
+  font-size:30rpx;
+  border-bottom: 2rpx solid #999;
+}
+.checkadd{
+  margin-left:270rpx;
+  font-size: 38rpx;
+}
+.setPassword{
+  width:280rpx;
+  height: 50rpx;
+}
+input{
+  font-size: 32rpx;
+  height: 80rpx;
+  padding-left: 40rpx;
+}
+.phoneNumber{
+  border-bottom: 2rpx solid #eee;
+}
+.inpt input{
+  width:500rpx;
+}
+.inpt{
+  display: flex;
+  border-bottom:2rpx solid #eee; 
+  font-size: 32rpx;
+  line-height: 45rpx;
+}
+.inpt view{
+  height: 50rpx;
+  border-left: 1rpx solid #eee;
+  margin-top: 20rpx;
+  padding-left: 20rpx;
+}
+.next{
+  font-size: 32rpx;
+  background: #999;
+  width:600rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 80rpx;
+  color: #fff;
+  border-radius: 10rpx;
+}
