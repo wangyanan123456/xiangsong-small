@@ -1,0 +1,93 @@
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  /* background: red; */
+  display: flex;
+  font-size:30rpx;
+  border-bottom: 2rpx solid #999;
+}
+.checkadd{
+  margin-left:270rpx;
+  font-size: 38rpx;
+  margin-right: 200rpx;
+}
+.guizhe{
+  color: red;
+}
+.duihuan{
+  display: flex;
+  margin-top: 20rpx;
+  padding-left: 30rpx;
+  font-size: 26rpx; 
+  border-bottom: 1rpx solid #999;
+  padding-bottom: 20rpx;
+}
+.duihuan view{
+  width:150rpx;
+  font-size: 26rpx;
+  text-align: center;
+  margin-left: 40rpx;
+}
+.tab{
+  display: flex; 
+  flex-wrap: nowrap;
+  justify-content: space-around; 
+  font-size: 32rpx; 
+  border-bottom: 1rpx solid #eee;
+  height: 80rpx;
+  line-height: 70rpx;
+}
+.tab_item{
+    color: #000;
+    cursor: pointer;
+}
+.active{
+  padding-bottom: 10rpx;
+  border-bottom: solid 2px #FA2B5C;
+  color: #FA2B5C;
+}
+.payList{
+  padding:30rpx 30rpx;
+  display: flex;
+  border-bottom: 1rpx solid #999;
+}
+.payList image{
+  width:100rpx;
+  height: 100rpx;
+  margin-right: 20rpx;
+  background: red;
+}
+.num{
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-left: 60rpx;
+}
+.money{
+  font-size: 32rpx;
+  padding:20rpx 30rpx;
+  padding-left: 500rpx;
+  border-bottom: 1rpx solid #999;
+}
+.dan{
+  display: flex;
+  font-size: 32rpx;
+  padding: 30rpx 30rpx;
+  padding-left:300rpx;
+}
+.dan view{
+  width:200rpx;
+  height: 60rpx;
+  border:1rpx solid #999;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  text-align: center;
+}
+.dan view:first-child{
+  margin-right: 30rpx;
+}
+.fenge{
+  height: 10rpx;
+  width: 100%;
+  background: #eee;
+  border:1rpx solid #999;
+}

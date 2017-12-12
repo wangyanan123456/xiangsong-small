@@ -1,0 +1,59 @@
+.title{
+  height: 80rpx;
+  line-height: 80rpx;
+  /* background: red; */
+  display: flex;
+  font-size:30rpx;
+  border-bottom: 2rpx solid #999;
+}
+.checkadd{
+  margin-left:270rpx;
+  font-size: 38rpx;
+  margin-right: 200rpx;
+}
+.guizhe{
+  color: red;
+}
+.tab{
+  display: flex; 
+  flex-wrap: nowrap;
+  justify-content: space-around; 
+  font-size: 32rpx; 
+  border-bottom: 1rpx solid #eee;
+  height: 80rpx;
+  line-height: 70rpx;
+}
+.tab_item{
+    color: #000;
+    cursor: pointer;
+}
+.active{
+  padding-bottom: 10rpx;
+  border-bottom: solid 2px #FA2B5C;
+  color: #FA2B5C;
+}
+.duihuan{
+  display: flex;
+  margin-top: 30rpx;
+  padding-left: 30rpx; 
+}
+.duihuan input{
+  width:460rpx;
+  height: 70rpx;
+  background: #eee;
+  font-size: 32rpx;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.duihuan view{
+  width:150rpx;
+  height: 65rpx;
+  line-height: 65rpx;
+  /* background: #eee; */
+  font-size: 32rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  border:1rpx solid orange;
+  color: orange;
+}

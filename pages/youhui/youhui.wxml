@@ -1,0 +1,16 @@
+<view>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>优惠券</view>
+    <view class='guizhe'>使用规则</view>
+  </view>
+  <view class='tab'>
+      <view bindtap='toColor' class="tab_item {{tab_now == 1 && 'active'}}" data-type="1"  >未使用</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 2 && 'active'}}" data-type="2" >已使用</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 3 && 'active'}}" data-type="3">已过期</view>
+  </view>
+   <view class='duihuan'>
+    <input placeholder='请输入卡券兑换码'></input>
+    <view>绑定</view>
+  </view>
+</view>

@@ -14,7 +14,9 @@
     "pages/seting/seting",
     "pages/loading/loading",
     "pages/jifen/jifen",
-    "pages/yue/yue"
+    "pages/yue/yue",
+    "pages/youhui/youhui",
+    "pages/myList/myList"
   ],
   "tabBar": {
     "color":"#000",

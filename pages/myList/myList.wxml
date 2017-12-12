@@ -1,0 +1,68 @@
+<view>
+  <view class='title'>
+    <view class='back'></view>
+    <view class='checkadd'>我的订单</view>
+  </view>
+  <view class='tab'>
+      <view bindtap='toColor' class="tab_item {{tab_now == 1 && 'active'}}" data-type="1"  >全部</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 2 && 'active'}}" data-type="2" >待付款</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 3 && 'active'}}" data-type="3">待收货</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 4 && 'active'}}" data-type="4">待评价</view>
+      <view bindtap='toColor' class="tab_item {{tab_now == 5 && 'active'}}" data-type="5">退款/售后</view>
+  </view>
+  <view class='duihuan'>
+    订单创建时间：2017年12月12日15时36分 
+    <view>订单状态</view>
+  </view>
+  <view>
+    <view class='payList'>
+      <view>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+      </view>
+      <view class='num'>共100件</view>
+    </view>
+    <view class='money'>实付：300元</view>
+    <view class='dan'>
+      <view>再来一单</view>
+      <view>评价订单</view>
+    </view>
+    <view class='fenge'></view>
+  </view>
+  <view>
+    <view class='payList'>
+      <view>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+      </view>
+      <view class='num'>共100件</view>
+    </view>
+    <view class='money'>实付：300元</view>
+    <view class='dan'>
+      <view>再来一单</view>
+      <view>评价订单</view>
+    </view>
+    <view class='fenge'></view>
+  </view>
+  <view>
+    <view class='payList'>
+      <view>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+        <image src='../../image/icon_me_press@2x.png'></image>
+      </view>
+      <view class='num'>共100件</view>
+    </view>
+    <view class='money'>实付：300元</view>
+    <view class='dan'>
+      <view>再来一单</view>
+      <view>评价订单</view>
+    </view>
+    <view class='fenge'></view>
+  </view>
+</view>

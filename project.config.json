@@ -25,7 +25,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 13,
+			"current": 10,
 			"list": [
 				{
 					"id": 0,
@@ -88,7 +88,7 @@
 					"query": ""
 				},
 				{
-					"id": -1,
+					"id": 10,
 					"name": "设置",
 					"pathName": "pages/seting/seting",
 					"query": ""
@@ -108,7 +108,20 @@
 				{
 					"id": -1,
 					"name": "余额",
-					"pathName": "pages/yue/yue"
+					"pathName": "pages/yue/yue",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "优惠券",
+					"pathName": "pages/youhui/youhui",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "全部订单",
+					"pathName": "pages/myList/myList",
+					"query": ""
 				}
 			]
 		}

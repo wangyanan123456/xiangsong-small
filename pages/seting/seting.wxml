@@ -1,5 +1,5 @@
 <view class='page'>
-   <view class="{{!show?'box':'box2'}}"> 
+  <view class="{{!show?'box':'box2'}}"> 
     <view class='title'>
       <view class='back'></view>
       <view class='checkadd' >设置</view>
@@ -8,11 +8,15 @@
     <view class='exit' bindtap='exit'>退出当前账号</view>
   </view>
 </view>
- <view class='model' wx:if='{{show}}'>
+<view class='show' wx:if='{{show}}'>
+  <view class='model' >
     <view class='listOne'>分享到</view>
     <view class='listTwo'>微信好友</view>
     <view class='listTwo'>微信朋友圈</view>
     <view class='listTwo'>新浪微博</view>
     <view class='listTwo'>QQ空间</view>
   </view>
+  <view style='height:50rpx'></view>
   <view class='quxiao' wx:if='{{show}}' bindtap='quxiao'>取消</view>
+</view>
+

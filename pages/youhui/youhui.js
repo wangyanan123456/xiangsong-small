@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    show:true,
+    tab_now:1
   },
 
   /**
@@ -14,66 +15,37 @@ Page({
   onLoad: function (options) {
   
   },
-  // 跳转收货地址页面
   toMyAdd: function () {
     console.log(0)
     wx.navigateTo({
       url: "../myAddress/myAddress",
     })
   },
-  // 跳转去团购页面
   toTuanGou:function(){
     wx.navigateTo({
       url: "../tuanGou/tuanGou",
     })
   },
-  // 跳转去设置支付密码
-  toSetPay:function(){
-    wx.navigateTo({
-      url: "../setPay/setPay",
-    })
-  },
-  //跳转绑定手机
-  toPhone:function(){
-    wx.navigateTo({
-      url: "../phone/phone",
-    })
-  },
-  // 跳转发票
-  toBill:function(){
-    wx.navigateTo({
-      url: "../bill/bill",
-    })
-  },
-  // 跳转设置
-  toSeting: function () {
-    wx.navigateTo({
-      url: "../seting/seting",
-    })
-  },
-  // 跳转积分
-  toJifen:function(){
-    wx.navigateTo({
-      url: "../jifen/jifen",
-    })
-  },
-  // 跳转余额
-  toYue:function(){
-    wx.navigateTo({
-      url: "../yue/yue",
-    })
-  },
-  // 跳转优惠券
-  toYouhui:function(){
-    wx.navigateTo({
-      url: "../youhui/youhui",
-    })
-  },
-  // 跳转查看我的订单
-  myList:function(){
-    wx.navigateTo({
-      url: "../myList/myList",
-    })
+  toColor:function(e){
+    var sortType = e.currentTarget.dataset.type;
+    // console.log(sortType)
+    if (this.data.tab_now == sortType && sortType != 4) return;
+    if (sortType != 4) {
+      this.setData({
+        tab_now: sortType
+      });
+    }
+
+    if (sortType ==1){
+      this.setData({
+        show:true
+      })
+    }
+    if (sortType == 2) {
+      this.setData({
+        show: false
+      })
+    }
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

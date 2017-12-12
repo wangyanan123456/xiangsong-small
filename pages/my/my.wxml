@@ -10,7 +10,7 @@
       <view>0.00</view>
       <view>余额</view>
     </view>
-    <view>
+    <view bindtap='toYouhui'>
       <view>0.00</view>
       <view>优惠券</view>
     </view>
@@ -22,7 +22,7 @@
   <view class='list'>
     <view class='checkList'>
       <view>我的订单</view>
-      <view>查看全部订单</view>
+      <view bindtap='myList'>查看全部订单</view>
     </view>
     <view class='serve'>
       <view>
