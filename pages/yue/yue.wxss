@@ -30,3 +30,56 @@
   border-radius: 10rpx;
   font-size: 24rpx;
 }
+.tab{
+  display: flex;
+  font-size: 32rpx;
+  padding: 20rpx 30rpx;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #999;
+}
+.tab image{
+  width:50rpx;
+  height: 50rpx;
+  background: red;
+  margin-right: 20rpx;
+}
+.tab>view{
+  display: flex;
+}
+.text{
+  width:100%;
+  text-align: center;
+  border-bottom: 1rpx solid #999;
+  padding:20rpx 0;
+  font-size: 32rpx;
+}
+.active{
+  color: red;
+}
+.duihuan{
+  display: flex;
+  margin-top: 30rpx;
+  padding-left: 80rpx;
+  
+}
+.duihuan input{
+  width:360rpx;
+  height: 70rpx;
+  background: #eee;
+  font-size: 32rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+.duihuan view{
+  width:150rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  /* background: #eee; */
+  font-size: 32rpx;
+  text-align: center;
+  border-radius: 100rpx;
+  margin-left: 20rpx;
+  border:1rpx solid orange;
+  color: orange;
+}
+

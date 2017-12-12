@@ -7,13 +7,18 @@
     <view>我的余额</view>
     <view>2.00</view>
   </view>
-  <view class='tab'>
+  <view class='tab' >
     <view>
-      <view></view>
-      <view>卡券兑换</view>
+      <view><image></image></view>
+      <view class="tabItem {{tab_now==1 && 'active'}}" data-type='1' bindtap='tab'>卡券兑换</view>
+    </view>
+    <view>
+      <view><image></image></view>  
+      <view  class="tabItem {{tab_now==2 && 'active'}}" data-type='2' bindtap='tab'>账单记录</view>
     </view>
   </view>
-  <view class='list'> 
+  <view class='text'>余额目前不支持提现</view>
+  <view class='list' style="display:{{show?'block':'none'}}"> 
     <view class='left'>
       <view>余额消费</view>
       <view>余额消费30.7元</view>
@@ -23,7 +28,7 @@
       <view>2017-12-11  11：29</view>
     </view>
   </view>
-  <view class='list'> 
+  <view class='list' style="display:{{show?'block':'none'}}"> 
     <view class='left'>
       <view>余额充值</view>
       <view>余额充值30.7元</view>
@@ -32,5 +37,9 @@
        <view style='color:red'>＋92</view>
       <view>2017-12-11  11：29</view>
     </view>
+  </view>
+  <view class='duihuan' wx:if="{{!show}}">
+    <input placeholder='请输入卡券兑换码'></input>
+    <view>兑换</view>
   </view>
 </view>

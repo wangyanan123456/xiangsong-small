@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    show:true,
+    tab_now:1
   },
 
   /**
@@ -25,7 +26,27 @@ Page({
       url: "../tuanGou/tuanGou",
     })
   },
+  tab:function(e){
+    var sortType = e.currentTarget.dataset.type;
+    // console.log(sortType)
+    if (this.data.tab_now == sortType && sortType != 3) return;
+    if (sortType != 3) {
+      this.setData({
+        tab_now: sortType
+      });
+    }
 
+    if (sortType ==1){
+      this.setData({
+        show:true
+      })
+    }
+    if (sortType == 2) {
+      this.setData({
+        show: false
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
